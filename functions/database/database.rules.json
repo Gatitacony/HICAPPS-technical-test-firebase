@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "pacientes": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": ["accesible"],
+      "$pacienteId": {
+        ".validate": "newData.child('nombre').isString() && newData.child('apellidoPaterno').isString() && newData.child('apellidoMaterno').isString() && newData.child('numeroSeguridadSocial').isString() && newData.child('accesible').isBoolean()"
+      }
+    },
+    "logs": {
+      ".read": false,
+      ".write": true
+    }
+  }
+}

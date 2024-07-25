@@ -1,0 +1,27 @@
+{
+    "pacientes": {
+      "paciente1": {
+        "nombre": "Franciny",
+        "apellidoPaterno": "Huaiquil",
+        "apellidoMaterno": "Gonzalez",
+        "numeroSeguridadSocial": "123-45-6789",
+        "accesible": true
+      },
+      "paciente2": {
+        "nombre": "Mario",
+        "apellidoPaterno": "Huaiquil",
+        "apellidoMaterno": "Ledesma",
+        "numeroSeguridadSocial": "977-65-4521",
+        "accesible": true
+      },
+      "paciente3": {
+        "nombre": "Daniel",
+        "apellidoPaterno": "Flores",
+        "apellidoMaterno": "Cadenas",
+        "numeroSeguridadSocial": "121-22-3131",
+        "accesible": false
+      }
+    },
+    "logs": {}
+  }
+  
