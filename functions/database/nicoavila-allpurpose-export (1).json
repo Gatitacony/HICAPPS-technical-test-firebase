@@ -1,0 +1,51 @@
+{
+  "logs": {
+    "-O2b-3NbGFVH0Fsc6EdR": {
+      "createdAt": 1721862473260,
+      "message": "Acceso a endpoint POST /pacientes"
+    },
+    "-O2b-v1c5ccSyDuh5KGx": {
+      "createdAt": 1721862697135,
+      "message": "Acceso a endpoint GET /pacientes"
+    },
+    "-O2b1kasGJH9rBPA0Rzn": {
+      "createdAt": 1721863178684,
+      "message": "Acceso a endpoint GET /pacientes/-O2b-3K-Ku8tvqqMEItR"
+    },
+    "-O2b79bTSKiCr9uxCg6N": {
+      "createdAt": 1721864595943,
+      "message": "Acceso a endpoint POST /pacientes"
+    },
+    "-O2b7DXLRZI-LKtqqWZA": {
+      "createdAt": 1721864611998,
+      "message": "Acceso a endpoint POST /pacientes"
+    },
+    "-O2bEQHyr8KhP4Ub1WjX": {
+      "createdAt": 1721866499268,
+      "message": "Acceso a endpoint GET /pacientes"
+    }
+  },
+  "pacientes": {
+    "-O2b-3K-Ku8tvqqMEItR": {
+      "accesible": true,
+      "apellidoMaterno": "Gonzalez",
+      "apellidoPaterno": "Huaiquil",
+      "nombre": "Franciny",
+      "numeroSeguridadSocial": "123-45-6789"
+    },
+    "-O2b79YkbBAYWrFV5VAO": {
+      "accesible": true,
+      "apellidoMaterno": "Ledesma",
+      "apellidoPaterno": "Huaiquil",
+      "nombre": "Mario",
+      "numeroSeguridadSocial": "977-65-4521"
+    },
+    "-O2b7DWx0IqPUZDdlQWs": {
+      "accesible": false,
+      "apellidoMaterno": "Cadenas",
+      "apellidoPaterno": "Flores",
+      "nombre": "Daniel",
+      "numeroSeguridadSocial": "121-22-3131"
+    }
+  }
+}
